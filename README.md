@@ -41,7 +41,8 @@
 
 ![](C:\Users\wafam\Downloads\pic_3_readme.png)
 
-26. 
-25. testing
-26. 
+26. Type `git remote add origin git@github.com:WafaMohbubul/github_test.git`
+27. Write `git add .` to add all files
+28. Commit files using `git commit -m "first commit`
+26. Push files to github using `git push origin main`
 
