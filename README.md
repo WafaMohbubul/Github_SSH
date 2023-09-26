@@ -34,6 +34,10 @@
 19. Key Type should be: `Authentication Key`
 20. in the Key section, copy and paste the key generated in te Git Bash terminal without any blank spaces.
 21. Create the SSH key. May be prompted to inset password.
+
+You should have a new SSH Key as shown below:
+![](C:\Users\wafam\Downloads\new_pic4.png)
+
 22. Go into Pycharm, and write in the GitBash terminal 'eval `ssh-agent`'. We should get a message 'Agent pid 1748'. Note: numbers will be different
 23. Type `ssh-add ~/.ssh/github_test`. Message should appear that Identity added
 24. Type `ssh -T git@github.com`. Authenticity of host message appears and asked if you want to continue connecting. 
@@ -42,6 +46,7 @@
 ![](C:\Users\wafam\Downloads\pic_3_readme.png)
 
 26. Type `git remote add origin git@github.com:WafaMohbubul/github_test.git`
+27. `git rmeote -v` ot understand connection 
 27. Write `git add .` to add all files
 28. Commit files using `git commit -m "first commit`
 26. Push files to github using `git push origin main`
