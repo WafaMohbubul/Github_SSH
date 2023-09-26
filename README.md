@@ -38,6 +38,9 @@
 You should have a new SSH Key as shown below:
 ![](C:\Users\wafam\Downloads\new_pic4.png)
 
+
+NOTE: These following steps need ot be done again if you close your machine as the connection will be severed/lost. 
+
 22. Go into Pycharm, and write in the GitBash terminal 'eval `ssh-agent`'. We should get a message 'Agent pid 1748'. Note: numbers will be different
 23. Type `ssh-add ~/.ssh/github_test`. Message should appear that Identity added
 24. Type `ssh -T git@github.com`. Authenticity of host message appears and asked if you want to continue connecting. 
